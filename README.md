@@ -12,9 +12,9 @@ Go to the root of the project and run these commands:
 
 `python -m venv .venv`
 
-- Activate environment on windows
-  `./.venv/Scripts/activate`
+Activate environment on windows
+`./.venv/Scripts/activate`
 
-- Install requirements
+Install requirements
 
 `pip install -r requirements.txt`
