@@ -8,5 +8,8 @@ class Task(models.Model):
     is_completed = models.BooleanField(default=False)
     created_at = models.DateTimeField(auto_created=True, blank=True)
 
+    def __str__(self) -> str:
+        return f"{self.title} created at {self.created_at}"
+
     class Meta:
         ordering = ['created_at']
