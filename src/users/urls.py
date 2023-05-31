@@ -4,5 +4,5 @@ from users import views
 app_name = "users"
 
 urlpatterns = [
-    path("", views.index, name="user")
+    path("", views.index, name="index")
 ]
